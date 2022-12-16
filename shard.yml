@@ -1,0 +1,18 @@
+name: wasmer-fizzbuzz
+version: 0.1.0
+
+authors:
+  - qualterz <qualterz@tutamail.com>
+
+targets:
+  wasmer-fizzbuzz:
+    main: src/wasmer-fizzbuzz.cr
+
+crystal: 1.6.2
+
+license: MIT
+
+dependencies:
+  wasmer:
+    github: naqvis/wasmer-crystal
+    version: ~> 0.2.2

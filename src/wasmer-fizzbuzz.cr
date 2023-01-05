@@ -29,7 +29,7 @@ module Wasmer::FizzBuzz
   puts "#{wasm_modules.size} modules are loaded."
 
   functions = wasm_modules.compact_map { |wasm|
-    # Instaninate a compiled module.
+    # Instantiate a compiled module.
     instance = Wasmer::Instance.new wasm
 
     # Get the exported `handle` function.
